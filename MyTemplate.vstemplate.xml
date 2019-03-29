@@ -1,0 +1,107 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>LMS</Name>
+    <Description>It is a simple library management system</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>LMS</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.jpg</Icon>
+    <PreviewImage>__PreviewImage.JPG</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="LMS.csproj" File="LMS.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Book_in_register.cs">Book_in_register.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Book_in_register.Designer.cs">Book_in_register.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Book_in_register.resx">Book_in_register.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="book_out_register.cs">book_out_register.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="book_out_register.Designer.cs">book_out_register.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="book_out_register.resx">book_out_register.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="BookMaster.cs">BookMaster.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="BookMaster.Designer.cs">BookMaster.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="BookMaster.resx">BookMaster.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="BookReports.cs">BookReports.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="BookReports.Designer.cs">BookReports.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="BookReports.resx">BookReports.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="change_password.cs">change_password.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="change_password.Designer.cs">change_password.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="change_password.resx">change_password.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Connection.cs">Connection.cs</ProjectItem>
+      <Folder Name="Content" TargetFolderName="Content">
+        <ProjectItem ReplaceParameters="true" TargetFileName="PagedList.css">PagedList.css</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DGV.cs">DGV.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Home.cs">Home.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Home.Designer.cs">Home.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Home.resx">Home.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="LMS.cs">LMS.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="LMS.Designer.cs">LMS.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="LMS.resx">LMS.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Login.cs">Login.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Login.Designer.cs">Login.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Login.resx">Login.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="member.cs">member.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="member.Designer.cs">member.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="member.resx">member.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="member_transaction.cs">member_transaction.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="member_transaction.Designer.cs">member_transaction.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="member_transaction.resx">member_transaction.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MemberReports.cs">MemberReports.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MemberReports.Designer.cs">MemberReports.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MemberReports.resx">MemberReports.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="plan.cs">plan.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="plan.Designer.cs">plan.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="plan.resx">plan.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="profile.cs">profile.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="profile.Designer.cs">profile.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="profile.resx">profile.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.cs">Settings.Designer.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="purchase.cs">purchase.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="purchase.Designer.cs">purchase.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="purchase.resx">purchase.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="PurchaseReports.cs">PurchaseReports.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="PurchaseReports.Designer.cs">PurchaseReports.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="PurchaseReports.resx">PurchaseReports.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Rack.cs">Rack.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Rack.Designer.cs">Rack.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Rack.resx">Rack.resx</ProjectItem>
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <ProjectItem ReplaceParameters="false" TargetFileName="back.png">back.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="back1.png">back1.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="bluepages.png">bluepages.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Docs-icon.png">Docs-icon.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Graphicloads-100-Flat-Print.ico">Graphicloads-100-Flat-Print.ico</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="home-membership.png">home-membership.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="pngav.png">pngav.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="profile-pictures.png">profile-pictures.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Speesh.png">Speesh.png</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="role.cs">role.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="role.Designer.cs">role.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="role.resx">role.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="section.cs">section.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="section.Designer.cs">section.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="section.resx">section.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SpeeshScreen.cs">SpeeshScreen.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SpeeshScreen.Designer.cs">SpeeshScreen.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SpeeshScreen.resx">SpeeshScreen.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="TransectionReports.cs">TransectionReports.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="TransectionReports.Designer.cs">TransectionReports.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="TransectionReports.resx">TransectionReports.resx</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
